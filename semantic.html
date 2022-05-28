@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic HTML</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border_box;
+        }
+
+        #mainheader{
+            height: 10vh;
+            background_color: teal;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        aside{
+            height: 80vh;
+            background-color: aquamarine;
+            width: 30%;
+            float: left;
+            text-align: center;
+        }
+
+        .subheader{
+            height: 10vh;
+            background-color: cadetblue;
+            text-align: center;
+        }
+
+        article{
+            height: 60vh;
+            background-color: turquoise;
+            text-align: center;
+         }
+
+         #subfooter{
+             height: 10vh;
+             background-color: wheat;
+             text-align: center;
+         }
+
+         .mainfooter{
+             height: 10vh;
+             background-color: black;
+             color: white;
+             text-align: center;
+         }
+    </style>
+</head>
+
+<body>
+    
+
+    <!-- header starts-->
+    <header id="mainfolder">
+        header + nav
+    </header>
+    <!--header ends-->
+
+    <!--section starts-->
+
+    <section>
+        <aside>Aside</aside>
+        <header class="subheader">sub Header</header>
+        <article>Article</article>
+        <footer id="subfooter">Sub Footer</footer>
+    </section>
+
+    <!--section ends-->
+
+    <!--footer starts-->
+    <footer class="mainfooter">
+        Main Footer
+    </footer>
+    <!--footer ends-->
+
+
+</body>
+</html>
